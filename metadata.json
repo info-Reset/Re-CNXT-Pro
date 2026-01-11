@@ -1,0 +1,8 @@
+
+{
+  "name": "Re:CNXT Pro - Marketing & Web Dev",
+  "description": "A high-performance CRM tailored for digital marketing and website building agencies, featuring AI-powered lead analysis, project tracking, and document integration templates.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
