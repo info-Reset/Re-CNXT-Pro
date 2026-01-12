@@ -23,7 +23,7 @@ const App: React.FC = () => {
   // Check auth and load data on mount
   useEffect(() => {
     const session = localStorage.getItem(AUTH_KEY);
-    const masterKey = process.env.APP_ACCESS_KEY || 'admin123';
+    const masterKey = import.meta.env.VITE_APP_ACCESS_KEY || 'admin123';
     
     if (session === masterKey) {
       setIsAuthenticated(true);
